@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f7f7f7;
+    display: grid;
+    gap: 60px;
+    justify-items: center;
+}
+a {
+    text-decoration: none;
+}
+
+p,
+h1,
+h2 {
+    margin: 0;
+}
+
+p {
+    font-size: 20px;
+    line-height: 1.3;
+}
+
+.conteudo img {
+    max-width: 100%;
+    display: block;
+    border-radius: 4px;
+    border: 1px solid #ffff;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+}
+
+.menu {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+
+    flex-wrap: wrap;
+    margin-right: 40px;
+}
+
+.logo {
+    width: 120px;
+    right: 120px;
+    padding: 40px;
+}
+
+.menu a {
+    background: #bd1b2b;
+    color: #f7f7f7;
+    padding: 10px 30px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.conteudo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1000px;
+}
+
+.info {
+    background: #ffff;
+    padding: 40px;
+    text-align: right;
+    display: grid;
+    align-content: center;
+    gap: 20px;
+    justify-items: end;
+    border: 1px solid #bd1b2b;
+}
+
+.info-botao {
+    background: #bd1b2b;
+    color: #f7f7f7;
+    padding: 10px 30px;
+    border-radius: 5px;
+    text-transform: uppercase;
+
+    display: grid;
+    align-content: center;
+    gap: 20;
+}
+
+.info2 {
+    background: #ffff;
+    text-align: right;
+    padding: 40px;
+    display: grid;
+    align-content: center;
+    justify-items: end;
+    gap: 20px;
+    border: 1px solid #bd1b2b;
+}
+
+.info-botao2 {
+    background: #bd1b2b;
+    color: #f7f7f7;
+    padding: 10px 30px;
+    border-radius: 5px;
+    text-transform: uppercase;
+
+    display: grid;
+    align-content: center;
+    gap: 20;
+}
